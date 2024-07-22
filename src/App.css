@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  h1 {
+    color: #17a2b8;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
   }
-}
+  
+  .card-body {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .alert {
+    border-radius: 15px;
+  }
+  
+  .alert-heading {
+    color: #007bff;
+  }
+  
+  html, body, #root, .container {
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  .fitness-img{
+    height: 150px;
+    width: 150px;
+  }
+  
